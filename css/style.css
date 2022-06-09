@@ -644,15 +644,15 @@ body::after {
   width: 24px;
   height: 24px;
   background: #6aa701;
-  background-repeat: no-repeat;
-  background-position: center;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
   position: absolute;
   border-radius: 4px;
   top: 50%;
   left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%) !important;
+      -ms-transform: translate(-50%, -50%) !important;
+          transform: translate(-50%, -50%) !important;
 }
 
 [class*=-ibg] {
