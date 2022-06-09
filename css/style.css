@@ -592,7 +592,7 @@ body::after {
 }
 
 .no-webp .popup__close{
-  background-image: url(../../img/icons/cross.png); }
+  background-image: url(../img/icons/cross.png); }
 
 .popup__close {
   position: absolute;
@@ -1167,7 +1167,7 @@ h2 {
 
 .intro {
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center !important;
   background-size: cover;
   width: 100%;
 }
@@ -3841,7 +3841,7 @@ ul.breadcrumb li + li:before {
   }
 }
 
-.webp .popup__close{ background-image: url(../../img/icons/cross.webp); }
+.webp .popup__close{ background-image: url(../img/icons/cross.webp); }
 
 .webp .intro__popup-checkbox:checked + .intro__popup-checkbox-style::before{ background-image: url(../../img/icons/checked.webp); }
 
