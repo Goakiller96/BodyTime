@@ -1157,18 +1157,15 @@ h2 {
 }
 
 .no-webp .intro{
-  background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url(../img/bg.jpg); }
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url(../img/bg.jpg) no-repeat center; }
 
 .no-webp .intro{
-  background: -o-linear-gradient(bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/bg.jpg); }
+  background: -o-linear-gradient(bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/bg.jpg) no-repeat center; }
 
 .no-webp .intro{
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/bg.jpg); }
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/bg.jpg) no-repeat center; }
 
 .intro {
-  background-repeat: no-repeat;
-  background-position: center !important;
-  background-size: cover;
   width: 100%;
 }
 
@@ -1451,13 +1448,13 @@ h2 {
 }
 
 .no-webp .help__item-1{
-  background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url(../img/help-1.jpg); }
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url(../img/help-1.jpg) no-repeat center; }
 
 .no-webp .help__item-1{
-  background: -o-linear-gradient(bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/help-1.jpg); }
+  background: -o-linear-gradient(bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/help-1.jpg) no-repeat center; }
 
 .no-webp .help__item-1{
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/help-1.jpg); }
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/help-1.jpg) no-repeat center; }
 
 .help__item-1 {
   -ms-grid-column-span: 2;
@@ -1465,9 +1462,7 @@ h2 {
   -ms-grid-row-span: 2;
   grid-row: span 2;
   padding: 48px 230px 0px 48px;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+  background-size: cover !important;
 }
 
 .help__text {
@@ -3845,16 +3840,16 @@ ul.breadcrumb li + li:before {
 
 .webp .intro__popup-checkbox:checked + .intro__popup-checkbox-style::before{ background-image: url(../../img/icons/checked.webp); }
 
-.webp .intro{ background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url(../img/bg.webp); }
+.webp .intro{ background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url(../img/bg.webp) no-repeat center; }
 
-.webp .intro{ background: -o-linear-gradient(bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/bg.webp); }
+.webp .intro{ background: -o-linear-gradient(bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/bg.webp) no-repeat center; }
 
-.webp .intro{ background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/bg.webp); }
+.webp .intro{ background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/bg.webp) no-repeat center; }
 
-.webp .help__item-1{ background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url(../img/help-1.webp); }
+.webp .help__item-1{ background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url(../img/help-1.webp) no-repeat center; }
 
-.webp .help__item-1{ background: -o-linear-gradient(bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/help-1.webp); }
+.webp .help__item-1{ background: -o-linear-gradient(bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/help-1.webp) no-repeat center; }
 
-.webp .help__item-1{ background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/help-1.webp); }
+.webp .help__item-1{ background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/help-1.webp) no-repeat center; }
 
 .webp .help__item-2{ background-image: url(../img/help-2.webp); }
