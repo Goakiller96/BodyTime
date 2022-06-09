@@ -637,7 +637,7 @@ body::after {
 }
 
 .no-webp .intro__popup-checkbox:checked + .intro__popup-checkbox-style::before{
-  background-image: url(../../img/icons/checked.png); }
+  background-image: url(../img/icons/checked.png); }
 
 .intro__popup-checkbox:checked + .intro__popup-checkbox-style::before {
   content: "";
@@ -3838,7 +3838,7 @@ ul.breadcrumb li + li:before {
 
 .webp .popup__close{ background-image: url(../img/icons/cross.webp); }
 
-.webp .intro__popup-checkbox:checked + .intro__popup-checkbox-style::before{ background-image: url(../../img/icons/checked.webp); }
+.webp .intro__popup-checkbox:checked + .intro__popup-checkbox-style::before{ background-image: url(../img/icons/checked.webp); }
 
 .webp .intro{ background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url(../img/bg.webp) no-repeat center; }
 
